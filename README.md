@@ -16,12 +16,14 @@ The project aims to create a REST API that can load information from CSV files i
 ## Folder Structure
 - **data_example:** This folder is intended for loading sample data for testing the project.
 - **test_flask.py:** This file represents the main project.
-- **data_download:** Placeholder for downloaded data.
+- **data_download:** Folder for downloaded data.
 - **sql_commands.sql:** SQL statements for reviewing the data.
+- **config.py:** File to put your DB credentials and your AWS access keys
 
 ## Usage
-1. To execute the code and keep the service running, run the following command:
 ```bash
+1. To execute the code and keep the service running, run the following command:
+
 python jupyther\test_flask.py
 
 2. Once the project is running (i.e., after executing "python jupyther\test_flask.py"), you can test its functionality using Postman:
@@ -35,4 +37,7 @@ Within the request, the process requires a JSON payload with the following infor
      "file": "hired_employees.csv",    // The file to be processed
      "table": "hired_employees"         // The name of the table where the information will be loaded
    }
+
+```
+
 
