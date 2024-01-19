@@ -40,4 +40,22 @@ Within the request, the process requires a JSON payload with the following infor
 
 ```
 
+## Execution example
+
+- Start the DB 
+
+![RDS](./images/RDS_1.jpg)
+
+- Check the files on the bucket 
+
+![S3](./images/S3_1.jpg)
+
+- Fill your credentials on the config.py file
+- Start the application with python jupyther\test_flask.py
+
+![flask_1](./images/flask_1.jpg)
+
+
+
+
 
