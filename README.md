@@ -59,7 +59,7 @@ Within the request, the process requires a JSON payload with the following infor
 
 ![flask_1](./images/flask_1.jpg)
 
-- Open postman to try the the API
+- Open postman to try the API
 
 ![postman](./images/postman_1.jpg)
 
